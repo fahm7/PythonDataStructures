@@ -60,10 +60,7 @@ student_names.clear()
 print("Student Names After clear():",student_names)
 
 
-
-
-print("_____________UPDATED IN THE GIT______________")
-
+********************************
 
 
 
