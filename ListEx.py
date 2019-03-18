@@ -70,15 +70,31 @@ print("Student Names After clear():",student_names)
 
 
 
+print("\n______________________________________SIMPLE LIST________________extend________________________\n")
+
+colors_1=['red','green','orange']
+colors_2=['violet','indigo','blue','green']
+
+colors_1.extend(colors_2)
+
+print("color_1 list after extend:",colors_1)
+
+print("color_1 list after extend:",colors_2)
 
 
 
+print("\n______________________________________SIMPLE LIST________________sort________________________\n")
+
+colors_1.sort()
+
+print("color_1 list after sort:",colors_1)
 
 
 
+print("\n______________________________________SIMPLE LIST________________PLUS________________________\n")
 
+q1=['jan','feb','mar']
+q2=['apr','may','jun']
 
-
-
-
-
+semister=q1+q2
+print("q1+q2 list after add:",semister)
