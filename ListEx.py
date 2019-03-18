@@ -41,26 +41,34 @@ student_names.insert(0,'Henry')
 student_names.insert(4,'Liam')
 print("Student Names After insert:",student_names)
 
-print("______________________________________SIMPLE LIST________________remove________________________")
+print("\n______________________________________SIMPLE LIST________________remove________________________\n")
 
 student_names.remove('Henry')
-print("Student Names After insert:",student_names)
+print("Student Names After removal , Henry:",student_names)
+
+student_names.insert(8,'Liam')
+student_names.insert(6,'Liam')
+
+student_names.remove('Liam')
+print("Student Names After removal , Liam-1:",student_names)
+
+student_names.remove('Liam')
+print("Student Names After removal , Liam-2:",student_names)
 
 
+print("\n______________________________________SIMPLE LIST________________pop________________________\n")
 
-print("______________________________________SIMPLE LIST________________pop________________________")
-
+print("Student Names before pop():",student_names)
 student_names.pop()
 
 print("Student Names after pop():",student_names)
 
-print("______________________________________SIMPLE LIST________________clear________________________")
+print("\n______________________________________SIMPLE LIST________________clear________________________\n")
 student_names.clear()
 
 print("Student Names After clear():",student_names)
 
 
-********************************
 
 
 
