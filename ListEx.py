@@ -98,3 +98,16 @@ q2=['apr','may','jun']
 
 semister=q1+q2
 print("q1+q2 list after add:",semister)
+
+print("\n______________________________________SIMPLE LIST________________JOIN________________________\n")
+
+exampleList= ['Hello','World']
+
+print(exampleList)
+print('-'.join(exampleList))
+
+numberslist=["one", "two", "three", "four","five"]
+print("PRINT NUMBERS:")
+
+num_str= "\n".join(numberslist)
+print(num_str)
