@@ -55,3 +55,44 @@ countries.clear()
 
 print("countries = ",countries)
 
+print("___________________DIFFERENCE__________________________________")
+
+x_set = {"a","b","c","d","e"}
+y_set = {"b","c"}
+z_set = {"c","d"}
+
+print(x_set-y_set)
+print(x_set.difference(y_set))
+print("___________________INTERSECTION__________________________________")
+
+print(x_set.intersection(y_set))
+print(x_set & y_set)
+
+print()
+
+print("___________________UNION__________________________________")
+
+x_set = {"a","b","c","d","e"}
+y_set = {"b","c","m"}
+
+print(x_set|y_set)
+print(x_set.union(y_set))
+
+print("___________________SUBSET__________________________________")
+
+x_set = {"a","b","c","d","e"}
+y_set = {"b","c",}
+
+print(x_set.issubset(y_set))
+print(x_set<=y_set)
+
+print("___________________SUPERSET__________________________________")
+
+
+x_set = {"a","b","c","d","e"}
+y_set = {"b","c",}
+
+print(x_set.issuperset(y_set))
+print(x_set<=y_set)
+
+print("___________________SUBSET__________________________________")
