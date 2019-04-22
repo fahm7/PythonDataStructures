@@ -1,7 +1,7 @@
 # PythonDataStructures
 Data Structures in Python, The code is a part of Data Structure in python series on Medium.com
 you will find the explination of list here:
-##Book 
+## Book 
 https://algs4.cs.princeton.edu/11model/
 
 ## LIST
