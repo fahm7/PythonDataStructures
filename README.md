@@ -3,6 +3,7 @@ Data Structures in Python, The code is a part of Data Structure in python series
 you will find the explination of list here:
 ## Book 
 https://algs4.cs.princeton.edu/11model/
+http://interactivepython.org/runestone/static/pythonds/index.html
 ## Sorting Alograthms
 https://visualgo.net/en/sorting
 
